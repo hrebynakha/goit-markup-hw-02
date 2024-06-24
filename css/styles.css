@@ -5,7 +5,22 @@
     --white: #FFFFFF;
     --iris: #4d5ae5;
     --slate: #434455;
+    --cloud: #F4F4FD;
 
+}
+
+/* #region Base styles */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    overflow: hidden;
 }
 
 body {
@@ -25,13 +40,51 @@ a {
 }
 address {
     color: 	var(--slate);
+    font-style: normal;
 }
 button {
     font-family: inherit;
     color: currentColor;
     cursor: pointer;
 }
+/* #endregion */
 
+/* #region Common */
+.hero,
+footer {
+    background-color: var(--navy-blue);
+    color: var(--white);
+}
+
+.btn {
+    border-radius: 4px;
+}
+
+.item-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+}
+
+.item-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+}
+
+.item-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+
+/* #endregion */
+
+/* #region Navigation */
 .logo {
     font-family: var(--second-family);
     font-weight: 700;
@@ -45,7 +98,85 @@ button {
 .logo-accent {
     color: var(--iris);
 }
-.hero {
-    background-color: var(--navy-blue);
+
+.nav-item {
+    font-weight: 500;
+    line-height: 150%;
+}
+.address {
+    color: 	var(--slate);
+}
+/* #endregion */
+
+/* #region Hero */
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 107%;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+.btn-order {
+    background-color: var(--iris);
+}
+/* #endregion */
+
+/* #region Feature */
+.features {
+}
+
+.features-list {
+}
+
+.feature-subtitle {
+
+}
+.features-text {
+    
+}
+/* #endregion *
+
+/* #region Team */
+.team {
+    background-color: var(--cloud);
+}
+.team-list {
+}
+.team-member {
+}
+
+.team-title {
+    text-align: center;
+}
+.team-subtitle {
+    text-align: center;
+}
+.team-text {
+    text-align: center;
+}
+/* #endregion *
+
+/* #region Portfolio */
+.portfolio {
+}
+.portfolio-item {
+}
+.portfolio-list {
+}
+.portfolio-subtitle {
+}
+.portfolio-text {
+}
+/* #endregion */
+
+/* #region Footer */
+.footer {
+}
+.footer-logo {
     color: var(--white);
 }
+.footer-text {
+    color: var(--cloud);
+    line-height: 150%;
+}
+/* #endregion */
