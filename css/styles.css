@@ -111,7 +111,7 @@ footer {
 .address {
     color: 	var(--slate);
 }
-.address:hover {
+.address-item:hover {
     color: var(--ocean);
 }
 /* #endregion */
