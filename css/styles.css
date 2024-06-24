@@ -6,7 +6,7 @@
     --iris: #4d5ae5;
     --slate: #434455;
     --cloud: #F4F4FD;
-
+    --ocean: #404bbf;
 }
 
 /* #region Base styles */
@@ -103,8 +103,16 @@ footer {
     font-weight: 500;
     line-height: 150%;
 }
+.nav-link:hover,
+.nav-link:active {
+    color: var(--ocean);
+}
+
 .address {
     color: 	var(--slate);
+}
+.address:hover {
+    color: var(--ocean);
 }
 /* #endregion */
 
@@ -118,6 +126,9 @@ footer {
 }
 .btn-order {
     background-color: var(--iris);
+}
+.btn-order:hover {
+    background-color: var(--ocean);
 }
 /* #endregion */
 
