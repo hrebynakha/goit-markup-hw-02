@@ -47,7 +47,7 @@ footer {
 }
 
 .btn {
-    border-radius: 4px;
+
 }
 
 .item-title {
@@ -97,18 +97,23 @@ footer {
 
 .nav-link {
     line-height: 1.5;
+    color: var(--navy-blue);
 }
 
 .nav-link:hover,
 .nav-link:active,
-.nav-item:focus  {
+.nav-link:focus  {
     color: var(--ocean);
 }
 
 .address {
     color: 	var(--slate);
 }
-.address-item:hover {
+.address-link {
+    line-height: 1.5;
+}
+.address-link:hover,
+.address-link:focus {
     color: var(--ocean);
 }
 /* #endregion */
